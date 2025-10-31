@@ -1,9 +1,8 @@
 {
   "priority": 2,
-  "title": "Codevertiser",
-  "shortDescription": "A programming related article site to share my learnings",
+  "title": "EventCrafter",
+  "shortDescription": "A websites manage the events and tickets, and helps the clients find the event that match with their interests.",
   "cover": "https://res.cloudinary.com/dyvkdwzcj/image/upload/v1656970810/Codevertiser_xlxdje.png",
   "livePreview": "https://example.com/beta",
-  "visitors": "8K Visitors",
-  "earned": "$400 Earned"
+  "siteAge": "1.5 years old"
 }

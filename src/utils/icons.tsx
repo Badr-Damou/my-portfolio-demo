@@ -8,7 +8,12 @@ import NestjsIcon from '../assets/icons/nest.svg'
 import NextjsIcon from '../assets/icons/nextjs.svg'
 import NodejsIcon from '../assets/icons/nodejs.svg'
 import ReactIcon from '../assets/icons/react.svg'
-import LaravelIcon from '../assets/icons/laravelIcon.svg'
+import LaravelIcon from '../assets/icons/laravel.svg'
+import JavaIcon from '../assets/icons/java.svg'
+import AngularIcon from '../assets/icons/angular.svg'
+import SpringBootIcon from '../assets/icons/spring-boot.svg'
+import PhpIcon from '../assets/icons/php.svg'
+import VueJsIcon from '../assets/icons/vuejs.svg'
 import SocketIcon from '../assets/icons/socket.svg'
 import Star from '../assets/icons/star.svg'
 import TailwindCSS from '../assets/icons/tailwind-css.svg'
@@ -305,6 +310,8 @@ const PhoneIcon: FC<SVGProps<SVGSVGElement>> = (props) => {
       />
     </svg>
   )
+
+
 }
 
 export {
@@ -328,6 +335,12 @@ export {
   NextjsIcon,
   NodejsIcon,
   PhoneIcon,
+  LaravelIcon,
+  JavaIcon,
+  AngularIcon,
+  SpringBootIcon,
+  PhpIcon,
+  VueJsIcon,
   PreviewIcon,
   ReactIcon,
   SocketIcon,

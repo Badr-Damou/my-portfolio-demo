@@ -9,6 +9,12 @@ import {
   SocketIcon,
   TailwindCSS,
   TypescriptIcon,
+  LaravelIcon,
+  JavaIcon,
+  AngularIcon,
+  SpringBootIcon,
+  PhpIcon,
+  VueJsIcon,
 } from '../utils/icons'
 
 // Project Data
@@ -78,15 +84,23 @@ export const serviceData = [
     shortDescription: 'Building modern and responsive user interfaces with React.js.',
   },
   {
-    icon: NodejsIcon,
-    title: 'laravel Backend',
+    icon: AngularIcon,
+    title: 'Angular Development',
+    shortDescription: 'Building modern and responsive user interfaces with Angular.',
+  },
+ 
+  {
+    icon: LaravelIcon,
+    title: 'Laravel Development',
     shortDescription: 'Developing scalable server-side applications using Laravel.',
   },
+
   {
-    icon: NextjsIcon,
-    title: 'Angular Development',
-    shortDescription: 'Creating server-rendered Angular applications with Angular.',
+    icon: SpringBootIcon,
+    title: 'Spring Boot Development',
+    shortDescription: 'Developing scalable server-side applications using Spring Boot.',
   },
+
   {
     icon: TypescriptIcon,
     title: 'TypeScript Development',
@@ -98,9 +112,14 @@ export const serviceData = [
     shortDescription: 'Designing beautiful and responsive interfaces with Tailwind CSS.',
   },
   {
-    icon: TailwindCSS,
-    title: 'Java',
+    icon: JavaIcon,
+    title: 'Java Development',
     shortDescription: 'Designing beautiful and responsive interfaces with Tailwind CSS.',
+  },
+  {
+    icon: VueJsIcon,
+    title: 'Vue JS',
+    shortDescription: 'Designing beautiful and responsive interfaces with Vue js.',
   },
 ]
 
@@ -119,24 +138,28 @@ export const skillList = [
     icon: ReactIcon,
   },
   {
-    name: 'Next.js',
-    icon: NextjsIcon,
+    name: 'Angular',
+    icon: AngularIcon,
   },
   {
-    name: 'Node.js',
-    icon: NodejsIcon,
+    name: 'Java',
+    icon: JavaIcon,
   },
   {
-    name: 'Express.js',
-    icon: ExpressjsIcon,
+    name: 'Spring Boot',
+    icon: SpringBootIcon,
   },
   {
-    name: 'Nest.js',
-    icon: NestjsIcon,
+    name: 'PHP',
+    icon: PhpIcon,
   },
   {
-    name: 'Socket.io',
-    icon: SocketIcon,
+    name: 'Laravel',
+    icon: LaravelIcon,
+  },
+  {
+    name: 'VueJs',
+    icon: VueJsIcon,
   },
 ]
 
