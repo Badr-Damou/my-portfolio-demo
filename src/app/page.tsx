@@ -6,6 +6,9 @@ import ServiceSection from '@/components/Services/ServiceSection'
 import Skills from '@/components/Skills/Skills'
 import TestimonialSection from '@/components/Testimonials/TestimonialSection'
 import { getAllProjects, getAllTestimonials } from '@/services'
+import ExperiencesSection from "@/components/UI/experiences-section"
+import ExperiencesTimeline from "@/components/UI/experiences-timeline"
+
 
 export default async function Home() {
   const projects = await getAllProjects()
@@ -18,6 +21,7 @@ export default async function Home() {
       <div className="mx-auto my-8 max-w-[1200px] px-4 md:my-[3.75rem]">
         <ProjectSection projects={projects} />
         <ServiceSection />  
+        <ExperiencesSection />
         <ContactSection />
       </div>
     </main>
