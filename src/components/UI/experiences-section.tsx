@@ -55,7 +55,7 @@ export default function ExperiencesSection() {
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="mb-16">
-          <SectionHeading title="// Projects" />
+          <SectionHeading title="// Experiences" />
           <p className="text-slate-400 max-w-2xl py-5">
             My professional journey and roles that have shaped my expertise in full-stack development
           </p>
