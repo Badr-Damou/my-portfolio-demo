@@ -4,15 +4,12 @@ import Hero from '@/components/Hero/Hero'
 import ProjectSection from '@/components/Projects/ProjectSection'
 import ServiceSection from '@/components/Services/ServiceSection'
 import Skills from '@/components/Skills/Skills'
-import TestimonialSection from '@/components/Testimonials/TestimonialSection'
 import { getAllProjects, getAllTestimonials } from '@/services'
 import ExperiencesSection from "@/components/UI/experiences-section"
-import ExperiencesTimeline from "@/components/UI/experiences-timeline"
 
 
 export default async function Home() {
   const projects = await getAllProjects()
-  const testimonials = await getAllTestimonials()
 
   return (
     <main>
