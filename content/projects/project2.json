@@ -1,8 +1,9 @@
 {
   "priority": 2,
   "title": "EventCrafter",
-  "shortDescription": "A websites manage the events and tickets, and helps the clients find the event that match with their interests.",
+  "shortDescription": "A web platform for managing events and ticket sales, helping clients easily discover events that match their interests.",
   "cover": "https://res.cloudinary.com/dyvkdwzcj/image/upload/v1656970810/Codevertiser_xlxdje.png",
   "githubLink": "https://github.com/example/ReactJS-Coding-Challenges",
+  "type": "Study Work 🎓",
   "siteAge": "1.5 years old"
-}
+  }

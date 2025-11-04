@@ -1,7 +1,7 @@
 {
   "priority": 1,
   "title": "Healthcare Project",
-  "shortDescription": "Curated Background with Text colors contrast, help you to pick best contrast for your websites",
+  "shortDescription": "A web application designed to help users choose optimal color contrasts for healthcare-related websites, improving accessibility and readability.",
   "cover": "https://res.cloudinary.com/dyvkdwzcj/image/upload/v1645090814/color-contrast_n598kw.png",
   "githubLink": "https://github.com/example/ReactJS-Coding-Challenges",
   "type": "Study Work 🎓",

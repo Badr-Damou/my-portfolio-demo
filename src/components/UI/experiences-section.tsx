@@ -13,40 +13,32 @@ interface Experience {
 const experiences: Experience[] = [
   {
     id: 1,
-    title: "Senior Full Stack Developer",
-    company: "Tech Innovations Inc.",
-    period: "2022 - Present",
+    title: "Full Stack Developer",
+    company: "BK Systèmes Maroc",
+    period: "2023 - Present",
     description:
-      "Leading the development of scalable web applications using React and Node.js. Architecting solutions and mentoring junior developers.",
-    skills: ["React", "Node.js", "TypeScript", "PostgreSQL"],
+      "Interfaces Windev pour intégration ERP-WMS, rapports SQL, scripts Python. Projet DIALOG: app dévolution (JAVA --> Laravel, React.js), Github, Figma, Chart.js",
+    skills: ["React", "Laravel", "Java", "Python", "MySQL", "Windev"],
   },
   {
     id: 2,
     title: "Full Stack Developer",
-    company: "Digital Solutions Ltd.",
-    period: "2020 - 2022",
+    company: "Sothema",
+    period: "2022 - 2022",
     description:
-      "Developed and maintained multiple client-facing applications. Implemented responsive UI with React and built robust backend APIs.",
-    skills: ["React", "Express.js", "MongoDB", "Tailwind CSS"],
+      "Maintenance, migration Office 365, sauvegard, accés sur Sage X3.",
+    skills: ["Powershell","Office 365"],
   },
   {
     id: 3,
-    title: "Frontend Developer",
-    company: "Creative Web Agency",
-    period: "2019 - 2020",
+    title: "Full Stack Developer",
+    company: "GPM",
+    period: "2021 - 2021",
     description:
-      "Built responsive and interactive web interfaces. Collaborated with designers and backend teams to deliver high-quality products.",
-    skills: ["React", "JavaScript", "CSS", "HTML"],
+      "Developement complet d'un site web interactif et responsive orienté expérience utilisateur. \nSupport technique et maintenance logicielle.",
+    skills: ["PHP", "JavaScript", "CSS", "HTML"],
   },
-  {
-    id: 4,
-    title: "Junior Developer",
-    company: "StartUp Hub",
-    period: "2018 - 2019",
-    description:
-      "Contributed to multiple projects while learning full-stack development. Worked with modern technologies and agile methodologies.",
-    skills: ["JavaScript", "Vue.js", "PHP", "MySQL"],
-  },
+  
 ]
 
 export default function ExperiencesSection() {
@@ -62,7 +54,7 @@ export default function ExperiencesSection() {
         </div>
 
         {/* Timeline */}
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {experiences.map((exp) => (
             <div
               key={exp.id}

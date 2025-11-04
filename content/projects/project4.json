@@ -1,9 +1,9 @@
 {
   "priority": 4,
-  "title": "E Learning Project",
-  "shortDescription": "A collection of blogs and playlist of videos of programming lunguages that helps the begginers to educate programming.",
+  "title": "E-Learning Project",
+  "shortDescription": "An educational web platform featuring blogs and curated video playlists to help beginners learn programming languages effectively.",
   "cover": "https://res.cloudinary.com/dyvkdwzcj/image/upload/v1656971294/waitlist-template_qr4l9k.png",
-  "type": "new 🔥",
+  "type": "New 🔥",
   "githubLink": "https://github.com/example/ReactJS-Coding-Challenges",
   "siteAge": "1 month old"
-}
+  }
