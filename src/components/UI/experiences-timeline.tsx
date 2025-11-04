@@ -58,7 +58,7 @@ export default function ExperiencesTimeline() {
       <div className="max-w-4xl mx-auto">
         {/* Section Header */}
         <div className="mb-16">
-          <h2 className="text-sm md:text-base font-mono text-slate-400 mb-2">// Career Timeline</h2>
+          <h2 className="text-sm md:text-base font-mono text-slate-400 mb-2"> Career Timeline</h2>
           <p className="text-slate-400">A chronological view of my professional experiences</p>
         </div>
 

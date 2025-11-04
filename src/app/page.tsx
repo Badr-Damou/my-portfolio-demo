@@ -4,7 +4,7 @@ import Hero from '@/components/Hero/Hero'
 import ProjectSection from '@/components/Projects/ProjectSection'
 import ServiceSection from '@/components/Services/ServiceSection'
 import Skills from '@/components/Skills/Skills'
-import { getAllProjects, getAllTestimonials } from '@/services'
+import { getAllProjects } from '@/services'
 import ExperiencesSection from "@/components/UI/experiences-section"
 
 
